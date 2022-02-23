@@ -55,9 +55,8 @@ function MintButton(props) {
         try {
           const { signer, contract } = await connectWallet();
           const contractWithSigner = contract.connect(signer);
-          mintpricetable = ["0.01","0.02","0.03","0.04","0.05"]
           const value = ethers.utils.parseEther(
-            mintpricetable[props.mintAmount]
+            props.mintAmount*0.01
           );
           const tx = await contractWithSigner.mint(props.mintAmount, {
             value,
