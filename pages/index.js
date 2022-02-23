@@ -45,7 +45,7 @@ export default function Home() {
       <Gallery />
       <Mint />
       <Roadmap />
-      <Whitelist />
+      {/* <Whitelist /> */}
       <FAQ />
       {/* <Team /> */}
       <Summary />
