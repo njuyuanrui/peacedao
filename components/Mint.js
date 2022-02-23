@@ -194,26 +194,27 @@ function MintSection() {
           onMinted={refreshStatus}
           mintAmount={1}
           style={{ marginRight: "20px" }}
+          disabled={numberMinted === 5}
         />
         <MintButton
           onMinted={refreshStatus}
           mintAmount={2}
-          disabled={numberMinted === 1}
+          disabled={numberMinted > 3}
         />
         <MintButton
           onMinted={refreshStatus}
           mintAmount={3}
-          disabled={numberMinted === 1}
+          disabled={numberMinted >2}
         />
         <MintButton
           onMinted={refreshStatus}
           mintAmount={4}
-          disabled={numberMinted === 1}
+          disabled={numberMinted > 1}
         />
         <MintButton
           onMinted={refreshStatus}
           mintAmount={5}
-          disabled={numberMinted === 1}
+          disabled={numberMinted > 0}
         />
       </div>
     );
@@ -233,7 +234,7 @@ function MintSection() {
     );
   }
 
-  if (numberMinted === 2) {
+  if (numberMinted === 5) {
     mintButton = (
       <StyledMintButton
         style={{
