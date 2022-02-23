@@ -317,9 +317,9 @@ function Mint() {
           variant="body1"
           gutterBottom
         >
-          您好我的朋友，有没有觉得这个国产良心 NFT
-          项目网站跟别的项目不太一样？上面废话特别多，Mint
-          的按钮和方法一直找不到？
+          亲爱的韭菜朋友们，我们深受国产良心项目启发，希望大家能够在这里找到真正属于各位的社群。
+          尽管我们名字叫做韭菜NFT，但希望各位未来都不要称为韭菜。
+          
         </Typography>
         <Typography
           style={{
@@ -329,8 +329,8 @@ function Mint() {
           variant="body1"
           gutterBottom
         >
-          这并非因为我们不懂用户体验，相反，我们希望您在参与任何一个项目的时候，都能认真研究项目背后的团队、理念、发展路线和风险。不要
-          FOMO 也不要 FUD，要理性的决定自己是否要参与这个项目！
+          关于mint，我们也采用了ERC721A的框架，确保你们在mint多个NFT的时候，也只需要支付很少的手续费。
+          所以，放心地参与吧。
         </Typography>
         <Typography
           style={{
@@ -340,7 +340,7 @@ function Mint() {
           variant="body1"
           gutterBottom
         >
-          相信通过上面的资料，相信您已经充分了解了我们国产良心 NFT
+          相信通过上面的资料，相信您已经充分了解了我们国产韭菜 NFT
           项目。在您做好充分的思想准备之后，可以选择点击下面铸造（Mint）按钮进行铸造。
         </Typography>
 

@@ -53,7 +53,7 @@ function Summary() {
         >
           真心
         </span>
-        希望这个国产良心 NFT 项目，是未来国产项目的地板水平。
+        希望这个国产良心和韭菜 NFT 项目，是未来国产项目的地板水平。
       </Typography>
       <Dialog fullScreen open={open} TransitionComponent={Transition}>
         <Head>

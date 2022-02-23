@@ -47,7 +47,7 @@ export default function Home() {
       <Roadmap />
       <Whitelist />
       <FAQ />
-      <Team />
+      {/* <Team /> */}
       <Summary />
     </div>
   );

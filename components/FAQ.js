@@ -67,15 +67,15 @@ function FAQ() {
           </AccordionSummary>
           <AccordionDetails>
             <Typography variant="body2">
-              全宇宙（包括元宇宙）限量 <strong>1000</strong> 个。每个售价{" "}
+              全宇宙（包括元宇宙）限量 <strong>5000</strong> 个。每个售价{" "}
               <strong>0.01</strong> ETH。每个钱包地址可以铸造最多{" "}
-              <strong>2</strong> 个。每个人每天最多 <strong>2</strong> 个钱包。
+              <strong>5</strong> 个。每个人每天最多 <strong>2</strong> 个钱包。
             </Typography>
           </AccordionDetails>
         </Accordion>
         <Accordion style={{ marginTop: 20 }}>
           <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-            <Typography>为什么每个地址可以铸造 2 个？</Typography>
+            <Typography>为什么每个地址可以铸造 5 个？</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography variant="body2">
@@ -87,7 +87,7 @@ function FAQ() {
               >
                 Azuki 的合约 Gas Fee 优化技术
               </a>{" "}
-              能否带来比铸造两个阿狸更低的 Gas Fee。
+              能否带来比铸造五个阿狸更低的 Gas Fee。
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -160,17 +160,15 @@ function FAQ() {
           </AccordionSummary>
           <AccordionDetails>
             <Typography variant="body2">
-              <strong>所有收益直接卷走</strong>
-              平均分给两位项目组成员，应该不会回馈社区。更具体的打算：Bruce
-              想要换掉用了 4 年的 Intel MacBook 继续 BUIDL Web3；Muxin
-              打算买点画材继续创作。
+              <strong>会回馈社区，以及回馈国产良心</strong>
+              毕竟我没开发太多，很多是依靠国产良心的开源代码，图片来自社区的艺术家们。感谢大家
             </Typography>
           </AccordionDetails>
         </Accordion>
         <Accordion style={{ marginTop: 20 }}>
           <AccordionSummary expandIcon={<ExpandMoreIcon />}>
             <Typography>
-              为什么 OpenSea 上面设置 10% 的版税？这么高？
+              为什么 OpenSea 上面设置 7.5% 的版税？这么高？
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
