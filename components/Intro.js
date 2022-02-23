@@ -93,6 +93,15 @@ function Intro() {
           variant="body1"
           gutterBottom
         >
+          没错，我们确实从【国产良心】fork而来！但我们打算做很久。
+        </Typography>
+        <Typography
+          style={{
+            marginTop: "8.3333333%",
+          }}
+          variant="body1"
+          gutterBottom
+        >
           限量 5000 根【国产韭菜】NFT，抵制国产镰刀！ 保护国产韭菜！
         </Typography>
         <Typography
