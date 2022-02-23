@@ -40,19 +40,6 @@ function Summary() {
       id="summary"
     >
       <Typography style={{ textAlign: "center" }}>
-        最后，{" "}
-        <span
-          style={{
-            borderBottom: "2px dashed #5383b2",
-            color: "#5383b2",
-            cursor: "pointer",
-          }}
-          onClick={() => {
-            setOpen(true);
-          }}
-        >
-          真心
-        </span>
         希望这个国产良心和韭菜 NFT 项目，是未来国产项目的地板水平。
       </Typography>
       <Dialog fullScreen open={open} TransitionComponent={Transition}>
