@@ -154,7 +154,7 @@ function ConnectWallet(props) {
       />
       {props.showCollect && (
         <NoCollectWallet>
-          我们不用
+          我们也不用
           <br />
           <span style={{ textDecoration: "line-through" }}>Collect Wallet</span>
         </NoCollectWallet>
