@@ -19,8 +19,8 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>国产良心 NFT - 全宇宙限量 1000 的中国国产良心 NFT！</title>
-        <meta name="description" content="中国人不骗中国人，放心！" />
+        <title>国产韭菜 NFT - 限量 5000 根国产韭菜 NFT！</title>
+        <meta name="description" content="国产韭菜 团结！" />
         <link rel="icon" href="/favicon.png" />
 
         {/* Global Site Tag (gtag.js) - Google Analytics */}
@@ -43,11 +43,11 @@ export default function Home() {
       </Head>
       <Intro />
       <Gallery />
+      <Mint />
       <Roadmap />
       <Whitelist />
       <FAQ />
       <Team />
-      <Mint />
       <Summary />
     </div>
   );

@@ -38,6 +38,8 @@ const StyledMintButton = styled.div`
   }};
 `;
 
+mintpricetable = ["0.01","0.02","0.03","0.04","0.05"]
+
 function MintButton(props) {
   const [minting, setMinting] = useState(false);
 
@@ -54,7 +56,7 @@ function MintButton(props) {
           const { signer, contract } = await connectWallet();
           const contractWithSigner = contract.connect(signer);
           const value = ethers.utils.parseEther(
-            props.mintAmount === 1 ? "0.01" : "0.02"
+            mintpricetable[props.mintAmount]
           );
           const tx = await contractWithSigner.mint(props.mintAmount, {
             value,
@@ -195,6 +197,21 @@ function MintSection() {
         <MintButton
           onMinted={refreshStatus}
           mintAmount={2}
+          disabled={numberMinted === 1}
+        />
+        <MintButton
+          onMinted={refreshStatus}
+          mintAmount={3}
+          disabled={numberMinted === 1}
+        />
+        <MintButton
+          onMinted={refreshStatus}
+          mintAmount={4}
+          disabled={numberMinted === 1}
+        />
+        <MintButton
+          onMinted={refreshStatus}
+          mintAmount={5}
           disabled={numberMinted === 1}
         />
       </div>

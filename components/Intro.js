@@ -93,7 +93,7 @@ function Intro() {
           variant="body1"
           gutterBottom
         >
-          限量 5000 份【国产韭菜】NFT，抵制国产镰刀！ 保护国产韭菜！
+          限量 5000 根【国产韭菜】NFT，抵制国产镰刀！ 保护国产韭菜！
         </Typography>
         <Typography
           style={{
@@ -115,7 +115,7 @@ function Intro() {
         >
           <Tooltip title="官方 OpenSea">
             <a
-              href="https://opensea.io/collection/gclx"
+              href="https://opensea.io/collection/guochanjiucai"
               target="_blank"
               rel="noreferrer"
             >

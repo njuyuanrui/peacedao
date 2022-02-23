@@ -81,22 +81,21 @@ function Gallery() {
           variant="body1"
           gutterBottom
         >
-          1. 我们是国产良心 NFT，以上图片均为实际作品效果，
-          <strong>所见即所得</strong>
-          ，我们保证开图时不会为您带来惊吓、眩晕、呕吐等不适感。
+          1. 我们在开发上借鉴了【国产良心】，但我们的独立意志永远是，
+          <strong>国产韭菜</strong>
         </Typography>
         <Typography style={{ marginBottom: 20 }} variant="body1" gutterBottom>
-          2. 我们<strong>仅设置 1000 份限量作品</strong>
-          ，因为我们精力有限难以保证质量，我们保证不会为了多卖而滥竽充数，我们保证不以任何方式增发。
+          2. 我们<strong>仅设置 5000 份限量作品</strong>
+          ，我们正在夜以继日地创建更好的作品，请相信并期待。
         </Typography>
         <Typography style={{ marginBottom: 20 }} variant="body1" gutterBottom>
           3. 如果您很穷没有钱，但又非常喜欢本系列作品，我们建议您
           <strong>右键保存图片</strong>，请不要借贷或者卖房参与。
         </Typography>
         <Typography style={{ marginBottom: 20 }} variant="body1" gutterBottom>
-          4. 因为我们是国产良心
-          NFT，我们非常清楚作品的艺术价值和项目的开发成本，因此我们设置了作品的
-          <strong>良心价为 0.01 ETH 一个</strong>，童叟无欺。
+          4. 因为我们是国产韭菜NFT，我们非常清楚作品的艺术价值和项目的开发成本，因此我们设置了作品的
+          <strong>良心价为 0.01 ETH 一个</strong>。并且由于我们使用了更新的协议，所以您 
+          <strong>一次mint多个并不会影响手续费</strong>，请放心mint。
         </Typography>
       </Content>
     </Container>
