@@ -253,7 +253,7 @@ function Summary() {
           <Typography style={{ marginBottom: 20 }}>
             5. 尽量实名做项目，<strong>要有责任感</strong>。
             <a
-              href="https://opensea.io/collection/xrc"
+              href="https://opensea.io/collection/the-weirdo-ghost-gang"
               target="_blank"
               rel="noreferrer"
             >

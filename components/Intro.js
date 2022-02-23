@@ -73,7 +73,7 @@ function Intro() {
       id="intro"
     >
       <Head>
-        <h1>国产良心 NFT</h1>
+        <h1>国产韭菜 NFT</h1>
         <MenuWrapper>
           <MenuItem elementId="intro">介绍</MenuItem>
           <MenuItem elementId="roadmap">发展路线</MenuItem>
@@ -84,7 +84,7 @@ function Intro() {
       </Head>
       <Content>
         <ContentImage>
-          <img style={{ width: 200 }} src="/images/demo.gif" />
+          <img style={{ width: 200 }} src="/images/jiucai.png" />
         </ContentImage>
         <Typography
           style={{
@@ -93,7 +93,7 @@ function Intro() {
           variant="body1"
           gutterBottom
         >
-          尊贵且独一无二的限量 1000 份【国产良心】NFT，专为中国人准备！
+          限量 5000 份【国产韭菜】NFT，抵制国产镰刀！ 保护国产韭菜！
         </Typography>
         <Typography
           style={{
@@ -102,7 +102,7 @@ function Intro() {
           variant="body1"
           gutterBottom
         >
-          请放心参与，咱中国人不骗中国人{" "}
+          请放心参与，这回我们真站在韭菜这一边{" "}
           <img
             style={{ width: 36, position: "relative", top: 5 }}
             src="/icons/doge.png"
@@ -129,25 +129,9 @@ function Intro() {
               />
             </a>
           </Tooltip>
-          <Tooltip title="官方 LooksRare">
-            <a
-              href="https://looksrare.org/zh_hans/collections/0xBf66f2d9630A033022602c3279b04b4a37399927"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                style={{
-                  cursor: "pointer",
-                  width: 40,
-                  marginRight: "40px",
-                }}
-                src="/icons/looksrare.png"
-              />
-            </a>
-          </Tooltip>
           <Tooltip title="官方 Twitter">
             <a
-              href="https://twitter.com/gclxnft"
+              href="https://twitter.com/guochanjiucai"
               target="_blank"
               rel="noreferrer"
             >
