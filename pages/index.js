@@ -12,15 +12,7 @@ import Summary from "../components/Summary";
 export default function Home() {
   useEffect(() => {
     if (window.console) {
-      console.log("%c您好，科学家！", "font-size: 20px;font-weight:bold;");
-      console.log(
-        "%c没什么别的意思，就是想提醒您，我们是国产良心 NFT 项目，您无需费劲的查看编译后的代码，我们已经开源了。",
-        "font-size: 20px;"
-      );
-      console.log(
-        "%c网站开源地址：https://github.com/brucexu-eth/gclx-official",
-        "font-size: 20px;"
-      );
+
     }
   }, []);
 

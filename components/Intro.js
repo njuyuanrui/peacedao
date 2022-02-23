@@ -68,7 +68,7 @@ function Intro() {
   return (
     <Container
       style={{
-        background: "#dae7f8",
+        background: "#dae7a8",
       }}
       id="intro"
     >
