@@ -78,7 +78,7 @@ function Intro() {
           <MenuItem elementId="intro">介绍</MenuItem>
           <MenuItem elementId="roadmap">发展路线</MenuItem>
           <MenuItem elementId="faq">问与答</MenuItem>
-          <MenuItem elementId="team">项目成员</MenuItem>
+          {/* <MenuItem elementId="team">项目成员</MenuItem> */}
         </MenuWrapper>
         <ConnectWallet showCollect={true} />
       </Head>
