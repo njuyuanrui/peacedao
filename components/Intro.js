@@ -97,7 +97,7 @@ function Intro() {
         </Typography>
         <Typography
           style={{
-            marginTop: "8.3333333%",
+            marginTop: "2%",
           }}
           variant="body1"
           gutterBottom
