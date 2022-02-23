@@ -39,6 +39,8 @@ let instance;
 let contract;
 
 export async function connectWallet() {
+  console.log(process.env.NEXT_PUBLIC_CONTRACT_ADDRESS)
+  console.log(contractABI.abi)
   if (!instance) {
     instance = await web3ModelInstance.connect();
     // https://docs.ethers.io/v5/api/providers/
